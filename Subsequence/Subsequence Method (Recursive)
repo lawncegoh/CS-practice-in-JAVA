@@ -1,0 +1,14 @@
+public static ArrayList<String> Subsequence(String word) {
+        if (word.length() == 0) {
+            ArrayList<String> thisList = new ArrayList<>();
+            thisList.add("");
+            return thisList;
+        }
+        ArrayList<String> previous = Subsequence(word.substring(1));
+        ArrayList<String> thisList = new ArrayList<>();
+        for (String x: previous) {
+            thisList.add(x);
+            thisList.add(word.charAt(0) + x);
+        }
+        return myList;
+    }
