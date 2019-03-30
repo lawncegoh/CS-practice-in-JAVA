@@ -1,0 +1,22 @@
+public static ArrayList<String> Permutate(String word) {
+
+        if (word.length() == 1) {
+            ArrayList<String> thisList = new ArrayList<>();
+            thisList.add(word);
+            return myList;
+        }
+        
+        ArrayList<String> previous = Permutate(word.substring(1));
+        ArrayList<String> thisList = new ArrayList<>();
+        
+        for (String x: previous) {
+            for (int i = 0; i < x.length(); i++) {
+                String newWord = x.substring(0, i) + word.charAt(0) 
+                    + x.substring(i);
+                thisList.add(newWord);
+            }
+            thisList.add(x + word.charAt(0));
+        }
+        return thisList;
+
+    }
