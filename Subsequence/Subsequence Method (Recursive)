@@ -10,5 +10,5 @@ public static ArrayList<String> Subsequence(String word) {
             thisList.add(x);
             thisList.add(word.charAt(0) + x);
         }
-        return myList;
+        return thisList;
     }
