@@ -1,0 +1,13 @@
+Usage of this method returns the subsequences of any String scanned as input
+
+Example word: "tan"
+
+Return values:
+
+a
+an
+n
+t
+ta
+tan
+tn
