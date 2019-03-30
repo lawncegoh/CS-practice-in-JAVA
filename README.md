@@ -1,2 +1,2 @@
-# CS-practice-in-JAVA
+# CS-practice-in-Java
 Algorithms and Common Problems
