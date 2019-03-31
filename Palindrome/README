@@ -1,0 +1,6 @@
+- store word to be checked in a String
+- iterate the word from the back by char then add into another String
+- check if both strings are equal
+
+takes in input of NOON
+-> returns value of TRUE
